@@ -9,5 +9,8 @@
   "lockFileMaintenance": {
     "enabled": false
   },
-  "semanticCommits": true
+  "semanticCommits": true,
+  "vulnerabilityAlerts": {
+    "schedule": null
+  }
 }
