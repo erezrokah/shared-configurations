@@ -9,6 +9,13 @@
   "lockFileMaintenance": {
     "enabled": false
   },
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint packages"
+    }
+  ],
   "semanticCommits": true,
   "vulnerabilityAlerts": {
     "schedule": null
